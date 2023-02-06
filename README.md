@@ -13,7 +13,7 @@ Using Spyc is trivial:
 
 ```php
 <?php
-require_once "spyc.php";
+use Nbngr\Yaml\Spyc;
 $Data = Spyc::YAMLLoad('spyc.yaml');
 ```
 
@@ -21,10 +21,9 @@ or (if you prefer functional syntax)
 
 ```php
 <?php
-require_once "spyc.php";
+
 $Data = spyc_load_file('spyc.yaml');
 ```
 
 ## Donations, anyone?
 
-If you find Spyc useful, I'm accepting Bitcoin donations (who doesn't these days?) at 193bEkLP7zMrNLZm9UdUet4puGD5mQiLai

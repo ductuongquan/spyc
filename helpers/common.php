@@ -1,6 +1,6 @@
 <?php
 
-use Nbngr\Spyc;
+use Nbngr\Yaml\Spyc;
 
 if (!function_exists('spyc_load')) {
     /**
